@@ -1,5 +1,30 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 
+<style>
+    .image-container img {
+        max-width: 300px;
+        margin-right: 20px;
+    }
+    
+        font-size: 16px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .image-container {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .image-container img {
+            max-width: 100%;
+            margin-right: 0;
+        }
+
+        #medio p {
+            font-size: 14px;
+        }
+    }
+</style>
 body {
     font-family: Arial, sans-serif;
     margin: 0;
