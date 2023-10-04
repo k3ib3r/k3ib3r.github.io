@@ -7,7 +7,6 @@
     }
     
         font-size: 16px;
-    }
 
     @media screen and (max-width: 768px) {
         .image-container {
@@ -25,6 +24,7 @@
         }
     }
 </style>
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -57,7 +57,6 @@ header nav ul li a {
     color: #000000;
     text-decoration: none;
 }
-
 #medio {
     background-color: #8d8d8d;
     color: #000000;
@@ -79,7 +78,7 @@ footer {
 }
 
 a {
-    color: #0074D9;
+    color: #3156a3;
     text-decoration: none;
 }
 
@@ -96,9 +95,39 @@ a:hover {
     background-color: #827f7f;
     color: #000000;
 }
+
+#horario {
+    background-color: #827f7f;
+    color: #000000;
+}
+#nosotros {
+    background-color: #827f7f;
+    color: #000000;
+}
+.image-container img {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .image-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-container img {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    #medio p {
+        font-size: 14px;
+    }
+}
+
 body {
-    background-image: url('imagen2.jpg'); 
-    background-size: cover; 
-    background-repeat: no-repeat; 
+    background-image: url('imagen2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
